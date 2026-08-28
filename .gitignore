@@ -1,0 +1,16 @@
+# Dati mondi e mappe pesanti (13+ GB, gestiti con backup locali dedicati)
+world/
+world_backup/
+
+# File di runtime, cache e librerie pesanti
+.fabric/
+libraries/
+versions/
+logs/
+crash-reports/
+*.log
+*.tmp
+*.lck
+
+# Server JAR Mojang (scaricabile automaticamente)
+server.jar

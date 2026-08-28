@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "7ea02228-4993-48d0-b3cd-46524e7949d0",
+    "name": "Wolfsang",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "e48e6275-dac3-40de-8d53-17ec4b51515e",
+    "name": "sebIIIdiaragona",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "66e1d5e2-6642-3784-b8bf-fec3e82438a9",
+    "name": "Nemex",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6552bb1b-80a3-4b29-a689-7a79ab1c2ebd",
+    "name": "Nemex",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "aaf3f945-a382-39d3-bb39-1c8cb36a9540",
+    "name": "wolfsang",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

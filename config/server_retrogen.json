@@ -1,0 +1,186 @@
+{
+  "enabled": true,
+  "debug_logging": false,
+  "attempts_per_chunk": 6,
+  "rules": [
+    {
+      "id": "farmersdelight_wild_tomatoes",
+      "block": "farmersdelight:wild_tomatoes",
+      "chance_percentage": 4.0,
+      "biomes": [
+        "minecraft:savanna",
+        "minecraft:savanna_plateau",
+        "minecraft:windswept_savanna",
+        "minecraft:badlands",
+        "minecraft:eroded_badlands",
+        "minecraft:wooded_badlands"
+      ],
+      "valid_ground": [
+        "minecraft:grass_block",
+        "minecraft:dirt",
+        "minecraft:red_sand",
+        "minecraft:sand",
+        "minecraft:terracotta"
+      ],
+      "requires_water_layer": false,
+      "replace_short_grass": true
+    },
+    {
+      "id": "farmersdelight_wild_cabbages",
+      "block": "farmersdelight:wild_cabbages",
+      "chance_percentage": 6.0,
+      "biomes": [
+        "minecraft:beach",
+        "minecraft:stony_shore",
+        "minecraft:snowy_beach"
+      ],
+      "valid_ground": [
+        "minecraft:sand",
+        "minecraft:grass_block",
+        "minecraft:dirt"
+      ],
+      "requires_water_layer": false,
+      "replace_short_grass": true
+    },
+    {
+      "id": "farmersdelight_wild_onions",
+      "block": "farmersdelight:wild_onions",
+      "chance_percentage": 4.5,
+      "biomes": [
+        "minecraft:plains",
+        "minecraft:sunflower_plains",
+        "minecraft:meadow",
+        "minecraft:forest",
+        "minecraft:flower_forest",
+        "minecraft:birch_forest"
+      ],
+      "valid_ground": [
+        "minecraft:grass_block",
+        "minecraft:dirt",
+        "minecraft:coarse_dirt"
+      ],
+      "requires_water_layer": false,
+      "replace_short_grass": true
+    },
+    {
+      "id": "farmersdelight_wild_carrots",
+      "block": "farmersdelight:wild_carrots",
+      "chance_percentage": 3.5,
+      "biomes": [
+        "minecraft:plains",
+        "minecraft:meadow",
+        "minecraft:flower_forest"
+      ],
+      "valid_ground": [
+        "minecraft:grass_block",
+        "minecraft:dirt",
+        "minecraft:coarse_dirt"
+      ],
+      "requires_water_layer": false,
+      "replace_short_grass": true
+    },
+    {
+      "id": "farmersdelight_wild_potatoes",
+      "block": "farmersdelight:wild_potatoes",
+      "chance_percentage": 4.0,
+      "biomes": [
+        "minecraft:taiga",
+        "minecraft:snowy_taiga",
+        "minecraft:old_growth_pine_taiga",
+        "minecraft:old_growth_spruce_taiga",
+        "minecraft:grove"
+      ],
+      "valid_ground": [
+        "minecraft:grass_block",
+        "minecraft:podzol",
+        "minecraft:dirt",
+        "minecraft:coarse_dirt"
+      ],
+      "requires_water_layer": false,
+      "replace_short_grass": true
+    },
+    {
+      "id": "farmersdelight_wild_beetroots",
+      "block": "farmersdelight:wild_beetroots",
+      "chance_percentage": 3.5,
+      "biomes": [
+        "minecraft:beach",
+        "minecraft:forest",
+        "minecraft:birch_forest",
+        "minecraft:dark_forest"
+      ],
+      "valid_ground": [
+        "minecraft:sand",
+        "minecraft:grass_block",
+        "minecraft:dirt"
+      ],
+      "requires_water_layer": false,
+      "replace_short_grass": true
+    },
+    {
+      "id": "farmersdelight_wild_rice",
+      "block": "farmersdelight:wild_rice",
+      "chance_percentage": 5.0,
+      "biomes": [
+        "minecraft:swamp",
+        "minecraft:mangrove_swamp",
+        "minecraft:river"
+      ],
+      "valid_ground": [
+        "minecraft:dirt",
+        "minecraft:clay",
+        "minecraft:mud",
+        "minecraft:grass_block"
+      ],
+      "requires_water_layer": true,
+      "replace_short_grass": true
+    },
+    {
+      "id": "ecologics_seashell",
+      "block": "ecologics:seashell",
+      "chance_percentage": 7.0,
+      "biomes": [
+        "minecraft:beach",
+        "minecraft:snowy_beach"
+      ],
+      "valid_ground": [
+        "minecraft:sand",
+        "minecraft:red_sand"
+      ],
+      "requires_water_layer": false,
+      "replace_short_grass": true
+    },
+    {
+      "id": "ecologics_coconut_seedling",
+      "block": "ecologics:coconut_seedling",
+      "chance_percentage": 2.5,
+      "biomes": [
+        "minecraft:beach"
+      ],
+      "valid_ground": [
+        "minecraft:sand",
+        "minecraft:grass_block",
+        "minecraft:dirt"
+      ],
+      "requires_water_layer": false,
+      "replace_short_grass": true
+    },
+    {
+      "id": "ecologics_walnut_sapling",
+      "block": "ecologics:walnut_sapling",
+      "chance_percentage": 2.5,
+      "biomes": [
+        "minecraft:forest",
+        "minecraft:dark_forest",
+        "minecraft:old_growth_birch_forest"
+      ],
+      "valid_ground": [
+        "minecraft:grass_block",
+        "minecraft:dirt",
+        "minecraft:coarse_dirt"
+      ],
+      "requires_water_layer": false,
+      "replace_short_grass": true
+    }
+  ]
+}
