@@ -8,6 +8,7 @@ libraries/
 versions/
 logs/
 crash-reports/
+usercache.json
 *.log
 *.tmp
 *.lck
