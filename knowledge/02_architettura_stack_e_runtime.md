@@ -69,3 +69,15 @@ else { Write-Host "ERRORE: Nessun JDK Microsoft trovato!" -ForegroundColor Red }
 if (Test-Path "fabric-server-launch.jar") { Write-Host "Fabric JAR: OK" -ForegroundColor Green }
 if (Test-Path "eula.txt") { Write-Host "EULA: OK" -ForegroundColor Green }
 ```
+
+---
+
+## 5. Orologio Celeste Rallentato & Datapack Nativo (`tenuta_accessibility`)
+
+Per consentire l'orientamento, l'esplorazione e il crafting assistito con sintesi vocale NVDA senza la fretta della notte vanilla:
+
+- **Parametro Orologio**: `time rate 0.25` ($4\times$ più lento del vanilla).
+- **Ciclo Giorno-Notte**: **$80$ minuti totali** ($40$ minuti di luce piena e sole continuo per sessione).
+- **Persistenza Automatica**: Gestita tramite il datapack nativo `world/datapacks/tenuta_accessibility/` con trigger su `#minecraft:load`.
+- **Invarianza Prestazionale**: La fisica del mondo, il movimento dei giocatori e il rendering rimangono ancorati a $20\text{ TPS}$ nominali.
+
