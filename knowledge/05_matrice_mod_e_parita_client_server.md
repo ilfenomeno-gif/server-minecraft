@@ -64,3 +64,13 @@ Queste mod introducono blocchi, oggetti, entità e meccaniche di gioco. Devono e
 - **ToroHealth Damage Indicators**: Barre della vita fluttuanti sopra i mob e numeri di danno.
 - **Xaero's World Map / Minimap**: Mappa 2D e minimappa grafica sullo schermo.
 - *Non interferisce con la sintesi vocale di Luca.*
+
+---
+
+## 5. Mappatura Tasti per Mod Aggiuntive
+
+Per evitare sovrapposizioni tra le funzioni visive di Sebastian e i controlli vocali di Luca:
+
+- **Xaero's World Map (Schermata Mappa Piena)**: Assegnata al tasto **`F7`** (apertura/chiusura a schermo intero senza interferire con `M` o `B`).
+- **Traveler's Backpack (Accesso Rapido Zaino)**: Assegnato al tasto **`F8`** (evitando conflitti con `B` e `Z`).
+

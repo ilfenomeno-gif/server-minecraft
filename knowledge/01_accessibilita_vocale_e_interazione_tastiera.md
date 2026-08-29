@@ -44,3 +44,21 @@ Il server gestisce in modo armonico la presenza di due tipologie di giocatori:
 1. **Struttura Lineare**: Usare sempre elenchi puntati e sezioni sequenziali.
 2. **Niente Tabelle Complesse o Grafica ASCII**: Vietati diagrammi a scatole (`+---+`), frecce orizzontali complesse o matrici visive 2D.
 3. **Link Espliciti e Cliccabili**: Utilizzare percorsi completi con formato `file:///` per consentire l'apertura rapida da riga di comando o editor.
+
+---
+
+## 5. Integrità Modificatori Kuma (`kuma.json`) & Prevenzione Conflitti Tasti
+
+Per garantire la perfetta parità funzionale tra istanze singleplayer e server:
+
+1. **Requisito Vitale `kuma.json`**:
+   - Nella cartella `config/` del client, il file `kuma.json` memorizza i tasti modificatori (`SHIFT`, `CONTROL`, `ALT`) per le combinazioni di `minecraft-access` (scorrimento hotbar, sguardo nadir, lettura coordinate, radar POI).
+   - Senza `kuma.json`, Kuma perde le associazioni e i comandi con modificatori non rispondono. Deve essere sempre sincronizzato tra tutte le istanze del client.
+2. **Protezione dei Tasti Core da Conflitti con Mod Aggiuntive**:
+   - Mod esterne (come *Traveler's Backpack* o *Xaero's World Map*) tendono a sovrascrivere tasti alfabetici fondamentali per l'accessibilità.
+   - **Regola di Assegnazione**:
+     - Il tasto **`B`** è riservato esclusivamente alla lettura vocale del blocco mirato (`narrate_target`).
+     - Il tasto **`Z`** è riservato alla lettura della coordinata Z (`Alt + Z`).
+     - La **Mappa Grafica Estesa (Xaero)** viene assegnata tassativamente a **`F7`** (apertura/chiusura senza conflitti).
+     - Lo **Zaino (Traveler's Backpack)** viene assegnato a **`F8`** o disattivato su tastiera con `unknown`.
+
