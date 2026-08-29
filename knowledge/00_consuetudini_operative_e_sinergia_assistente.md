@@ -47,15 +47,15 @@ Ogni modifica o piano implementativo segue rigorosamente il ciclo di vita a 4 fa
 - **Fase 2: Deploy Provvisorio & Collaudo Manuale di Luca**:
   - Avvio del server o test dello script in ambiente controllato.
   - Collaudo funzionale condotto da Luca tramite NVDA e tastiera.
-- **Fase 3: Chiusura Simultanea & Living Documentation**:
-  - Consolidamento delle modifiche su Git (Conventional Commits).
+- **Fase 3: Chiusura Tecnica, Living Documentation & Domanda Ponte**:
+  - Consolidamento delle modifiche su Git (Conventional Commits), eventuale push e backup stabile.
   - Aggiornamento della documentazione viva (`GEMINI.md`, `README.md`, schede in `knowledge/`).
   - Archiviazione del piano da `docs/piani/attivi/` a `docs/piani/completati/`.
-- **Fase 4: Auto-Apprendimento Continuo a 3 Dimensioni & Trigger Proattivo**:
-  - *Dimensione Tecnica*: Registrazione di incompatibilità scoperte o pattern di modding Fabric.
-  - *Dimensione Metodologica*: Ottimizzazione dei flussi di lavoro e test.
-  - *Dimensione Comunicativa*: Affinamento della resa sintetica e accessibile per NVDA.
-  - *Trigger Proattivo*: Segnalazione in calce alla risposta di eventuali nuove regole o miglioramenti da integrare.
+  - Presentazione del riepilogo sintetico lezioni estratte sulle 3 Dimensioni (Tecnica, Metodologica, Comunicativa).
+  - **Obbligo Tassativo di Domanda Ponte**: L'assistente chiude con:
+    > *"Vuoi che avviamo ora la sessione formale di Auto-Apprendimento (Fase 4) per elaborare la bozza dettagliata delle regole e aggiornare le schede di conoscenza e governance?"*
+- **Fase 4: Auto-Apprendimento Continuo (Al via libera di Luca)**:
+  - Mappatura dei file di destinazione (`knowledge/`, `GEMINI.md`, Master Hub), redazione dei paragrafi completi pronti per l'inserimento e richiesta di convalida finale prima di applicarli.
 
 ---
 

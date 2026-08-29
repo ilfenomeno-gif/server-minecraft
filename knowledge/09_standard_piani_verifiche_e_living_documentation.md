@@ -19,8 +19,13 @@ Ogni evoluzione complessa del server (nuove mod, conversioni mondi, comandi cust
 2. **Fase di Esecuzione & Collaudo**:
    - Esecuzione delle modifiche guidata da Antigravity solo dopo il consenso di Luca.
    - Collaudo in-game da parte di Luca (con NVDA) e Sebastian.
-3. **Fase di Completamento & Archiviazione**:
+3. **Fase 3: Completamento, Archiviazione & Domanda Ponte**:
    - Spostamento del file da `docs/piani/attivi/` a `docs/piani/completati/[NOME_PIANO].md`.
+   - Commit Git, backup stabile e aggiornamento Living Documentation.
+   - Presentazione del riepilogo 3D e **obbligo di Domanda Ponte**:
+     > *"Vuoi che avviamo ora la sessione formale di Auto-Apprendimento (Fase 4) per elaborare la bozza dettagliata delle regole e aggiornare le schede di conoscenza e governance?"*
+4. **Fase 4: Auto-Apprendimento Continuo (Al via libera di Luca)**:
+   - Mappatura file di destinazione, redazione bozza paragrafi completi e convalida esplicita prima di applicarli.
 
 ---
 

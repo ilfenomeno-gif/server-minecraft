@@ -32,8 +32,8 @@ Questo repository ospita il server dedicato Minecraft **Fabric 26.2** per la Ten
    Script operativi rapidi (`avvia.bat`, `aggiorna_mappa.bat`, `leggi_codice_e4mc.bat`) per minimizzare la digitazione manuale e velocizzare l'accesso.
 8. **Regola 7 - Accessibilità Cognitiva & Formattazione Lineare**:
    Divieto assoluto di grafici ASCII 2D, diagrammi a scatole o frecce visive complesse. Uso esclusivo di strutture sequenziali lineari "Se... Allora" e intestazioni Markdown standard.
-9. **Regola 8 - Ciclo di Vita dei Piani a 4 Fasi & Living Documentation**:
-   Pre-Flight check, collaudo manuale di Luca con NVDA, chiusura simultanea su Git con archiviazione piani in `docs/piani/completati/` e auto-apprendimento a 3 dimensioni.
+9. **Regola 8 - Ciclo di Vita dei Piani a 4 Fasi & Protocollo Domanda Ponte**:
+   Pre-Flight check, collaudo manuale di Luca con NVDA, chiusura simultanea su Git (Fase 3) con obbligo di Domanda Ponte e avvio controllato dell'Auto-Apprendimento a 3 dimensioni (Fase 4).
 
 ---
 
