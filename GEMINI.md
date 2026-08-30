@@ -32,8 +32,26 @@ Questo repository ospita il server dedicato Minecraft **Fabric 26.2** per la Ten
    Script operativi rapidi (`avvia.bat`, `aggiorna_mappa.bat`, `leggi_codice_e4mc.bat`) per minimizzare la digitazione manuale e velocizzare l'accesso.
 8. **Regola 7 - Accessibilità Cognitiva & Formattazione Lineare**:
    Divieto assoluto di grafici ASCII 2D, diagrammi a scatole o frecce visive complesse. Uso esclusivo di strutture sequenziali lineari "Se... Allora" e intestazioni Markdown standard.
-9. **Regola 8 - Ciclo di Vita dei Piani a 4 Fasi & Protocollo Domanda Ponte**:
-   Pre-Flight check, collaudo manuale di Luca con NVDA, chiusura simultanea su Git (Fase 3) con obbligo di Domanda Ponte e avvio controllato dell'Auto-Apprendimento a 3 dimensioni (Fase 4).
+9. **Regola 8 - Ciclo di Vita dei Piani a 4 Fasi & Doppio Binario di Auto-Apprendimento**:
+   - *Fase 1*: Pre-Flight Check, verifica Java 25 e backup preventivo del mondo in `world_backup/`.
+   - *Fase 2 (Deploy Proattivo & Zero Attrito)*: Deploy automatico immediato delle mod/configurazioni e avvio server in modalità controllata prima del collaudo manuale di Luca con screen reader.
+   - *Fase 3 (Chiusura Tecnica & Doppia Barriera di Backup)*: Consolidamento Git (Conventional Commits), Living Documentation, aggiornamento del backup stabile **esclusivamente POST-CONVALIDA positiva di Luca**, riepilogo 3D e **obbligo tassativo di Domanda Ponte**:
+     > *"Vuoi che avviamo ora la sessione formale di Auto-Apprendimento (Fase 4) per elaborare la bozza dettagliata delle regole e aggiornare le schede di conoscenza e governance?"*
+   - *Fase 4 (Auto-Apprendimento Continuo a Doppio Binario — Esecuzione al via libera di Luca)*:
+     - **Binario A (Locale / Progetto)**: Aggiornamento della cartella `knowledge/` locale (`08_registro_incidenti_e_troubleshooting.md`, matrici mod).
+     - **Binario B (Globale / Master Hub)**: Aggiornamento delle schede in `$env:OneDrive\progetti dei frati\antigravity master governance e jolly universali\knowledge_globale\`. Sincronizzazione a cascata dello Starter Kit ZIP al termine.
+
+---
+
+## 🧭 Dispatcher On-Demand della Conoscenza Globale
+
+Prima di pianificare o eseguire interventi sul server, Antigravity consulta in background i moduli pertinenti nella Libreria Modulare del Master Hub:  
+`$env:OneDrive\progetti dei frati\antigravity master governance e jolly universali\knowledge_globale\`
+
+- **Profilo & Consuetudini**: `01_profilo_e_consuetudini/` (`abitudini_sviluppo_luca.md`, `stile_comunicazione_nvda.md`).
+- **Accessibilità & Audio**: `02_accessibilita_e_audio/` (`standard_nvda_e_tastiera.md`, `sonificazione_e_volumi_sicurezza.md`, `accessibilita_videogiochi_e_gameplay.md`).
+- **Architettura & Metodologie**: `03_architettura_e_metodologie/` (`clean_architecture_e_design_pattern.md`, `strategie_testing_e_debug.md`, `automazioni_powershell_e_resilienza.md`).
+- **Standard Tecnologici**: `04_standard_tecnologici_trasversali/` (`standard_modding_e_runtime.md`).
 
 ---
 

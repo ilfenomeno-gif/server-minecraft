@@ -37,25 +37,28 @@ Ogni proposta tecnica, configurazione di mod o script deve essere verificata pre
 
 ---
 
-## 4. Pipeline Operativa a 4 Fasi
+## 4. Pipeline Operativa a 4 Fasi & Doppio Binario di Auto-Apprendimento
 
 Ogni modifica o piano implementativo segue rigorosamente il ciclo di vita a 4 fasi:
 
 - **Fase 1: Pre-Flight Check & Preparazione**:
   - Verifica ambiente (`$env:COMPUTERNAME = NEMEXMASTER`, presenza runtime Java 25/21).
-  - Backup di sicurezza preventivo se si toccano file di mondo o configurazioni critiche.
-- **Fase 2: Deploy Provvisorio & Collaudo Manuale di Luca**:
-  - Avvio del server o test dello script in ambiente controllato.
+  - Backup di sicurezza preventivo del mondo in `world_backup/` se si toccano file critici.
+- **Fase 2: Deploy Proattivo & Collaudo Manuale di Luca**:
+  - Deploy automatico e avvio controllato del server o test dello script in ambiente protetto.
   - Collaudo funzionale condotto da Luca tramite NVDA e tastiera.
-- **Fase 3: Chiusura Tecnica, Living Documentation & Domanda Ponte**:
-  - Consolidamento delle modifiche su Git (Conventional Commits), eventuale push e backup stabile.
+- **Fase 3: Chiusura Tecnica, Doppia Barriera di Backup & Domanda Ponte**:
+  - Consolidamento delle modifiche su Git (Conventional Commits), eventuale push.
+  - Aggiornamento del backup stabile **esclusivamente POST-CONVALIDA positiva di Luca**.
   - Aggiornamento della documentazione viva (`GEMINI.md`, `README.md`, schede in `knowledge/`).
   - Archiviazione del piano da `docs/piani/attivi/` a `docs/piani/completati/`.
   - Presentazione del riepilogo sintetico lezioni estratte sulle 3 Dimensioni (Tecnica, Metodologica, Comunicativa).
   - **Obbligo Tassativo di Domanda Ponte**: L'assistente chiude con:
     > *"Vuoi che avviamo ora la sessione formale di Auto-Apprendimento (Fase 4) per elaborare la bozza dettagliata delle regole e aggiornare le schede di conoscenza e governance?"*
-- **Fase 4: Auto-Apprendimento Continuo (Al via libera di Luca)**:
-  - Mappatura dei file di destinazione (`knowledge/`, `GEMINI.md`, Master Hub), redazione dei paragrafi completi pronti per l'inserimento e richiesta di convalida finale prima di applicarli.
+- **Fase 4: Auto-Apprendimento Continuo a Doppio Binario (Al via libera di Luca)**:
+  - **Binario A (Locale / Progetto)**: Aggiornamento della cartella `knowledge/` del server (`08_registro_incidenti_e_troubleshooting.md`, matrici mod).
+  - **Binario B (Globale / Master Hub)**: Aggiornamento delle schede in `$env:OneDrive\progetti dei frati\antigravity master governance e jolly universali\knowledge_globale\`. Sincronizzazione a cascata dello Starter Kit ZIP al termine.
+  - Redazione dei paragrafi completi pronti per l'inserimento e richiesta di convalida finale prima di applicarli.
 
 ---
 
