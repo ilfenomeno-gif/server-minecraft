@@ -1,26 +1,28 @@
-# Scheda di Governance 00: Consuetudini Operative & Sinergia Assistente
+﻿# Scheda di Governance 00: Consuetudini Operative & Sinergia Assistente
 # Repository: server-minecraft (Tenuta di Luca e Sebastian)
 # Autore: Luca (Veterano & Sviluppatore Non Vedente con NVDA) & Antigravity (Senior AI Pair Programmer)
 # Target Runtime: Minecraft 26.2 (Fabric Loader, Java 25 Microsoft LTS)
+# Framework: ASTRALIS v3.0.2
 
 ---
 
 ## 1. Identità del Progetto e Ruoli del Team
 
-Il presente repository contiene il server dedicato Minecraft **Fabric 26.2** per la **Tenuta di Luca e Sebastian**.
+Il presente repository ospita il server dedicato Minecraft **Fabric 26.2** per la **Tenuta di Luca e Sebastian**.
 
 - **Luca (Veterano / Senior Pair Programmer)**: Sviluppatore non vedente, interagisce con il codice, il sistema operativo e l'ambiente di gioco tramite sintesi vocale (NVDA / SAPI), audio 3D posizionale e comandi da tastiera completi (**ZERO MOUSE**).
 - **Sebastian (Apprendista / Repository Owner)**: Proprietario del repository GitHub (`ilfenomeno-gif/server-minecraft`), giocatore normovedente.
-- **Antigravity (Senior AI Pair Programmer)**: Assistente ingegneristico di programmazione e governance, opera come braccio destro di Luca secondo standard rigorosi di affidabilità, accessibilità e sicurezza.
+- **Antigravity (Senior AI Pair Programmer)**: Assistente ingegneristico di programmazione e governance, opera come braccio destro di Luca secondo gli standard del framework universale **ASTRALIS v3.0.2**.
+- **OpenAI Codex / ChatGPT (Copilota Ausiliario)**: Peer reviewer e validatore critico logico (Inner Codex pattern).
 
 ---
 
 ## 2. Principio di Dialogo a 2 Tempi (Default Consultivo Permanente)
 
 Per prevenire qualsiasi modifica non concordata o accidentale:
-- **Default Consultivo**: Antigravity opera sempre in modalità consultiva e analitica. È fatto **divieto assoluto di modificare file, configurazioni o codice sorgente senza il comando esplicito di Luca** (*"procedi"*, *"applica"*, *"esegui"*, *"inizializza"*).
+- **Default Consultivo Permanente**: Antigravity opera sempre in modalità consultiva e analitica. È fatto **divieto assoluto di modificare file, configurazioni o script senza il comando esplicito di Luca** (*"procedi"*, *"applica"*, *"esegui"*).
 - **Riconoscimento Semantico Consultivo**: Domande e frasi come *"cosa ne pensi?"*, *"valuta"*, *"come faresti?"*, *"analizza"*, *"esamina"* impongono la sola risposta teorica/analitica e vietano l'esecuzione autonoma di modifiche.
-- **Autorizzazione Esplicita**: Solo dopo che Luca ha validato la proposta e impartito l'ordine di procedere, Antigravity esegue le modifiche concordate.
+- **Gating Semantico Fase 1**: Comandi come *"passa alla fase 1"* autorizzano **esclusivamente la stesura del Piano Tecnico Formale (Sotto-Fase 1A)** in `docs/piani/attivi/` con Stop Obbligatorio prima del codice o configurazioni.
 
 ---
 
@@ -37,31 +39,33 @@ Ogni proposta tecnica, configurazione di mod o script deve essere verificata pre
 
 ---
 
-## 4. Pipeline Operativa a 4 Fasi & Doppio Binario di Auto-Apprendimento
+## 4. Pipeline Operativa a 4 Fasi & Rete a 4 Nodi Comunicanti (DRY)
 
-Ogni modifica o piano implementativo segue rigorosamente il ciclo di vita a 4 fasi:
+Ogni modifica complessa segue rigorosamente il ciclo vitale ASTRALIS:
 
-- **Fase 1: Pre-Flight Check & Preparazione**:
-  - Verifica ambiente (`$env:COMPUTERNAME = NEMEXMASTER`, presenza runtime Java 25/21).
-  - Backup di sicurezza preventivo del mondo in `world_backup/` se si toccano file critici.
-- **Fase 2: Deploy Proattivo & Collaudo Manuale di Luca**:
-  - Deploy automatico e avvio controllato del server o test dello script in ambiente protetto.
-  - Collaudo funzionale condotto da Luca tramite NVDA e tastiera.
-- **Fase 3: Chiusura Tecnica, Doppia Barriera di Backup & Domanda Ponte**:
-  - Consolidamento delle modifiche su Git (Conventional Commits), eventuale push.
-  - Aggiornamento del backup stabile **esclusivamente POST-CONVALIDA positiva di Luca**.
-  - Aggiornamento della documentazione viva (`GEMINI.md`, `README.md`, schede in `knowledge/`).
-  - Archiviazione del piano da `docs/piani/attivi/` a `docs/piani/completati/`.
-  - Presentazione del riepilogo sintetico lezioni estratte sulle 3 Dimensioni (Tecnica, Metodologica, Comunicativa).
-  - **Obbligo Tassativo di Domanda Ponte**: L'assistente chiude con:
+- **Fase 0 (Strategia UPCS)**:
+  - Analisi logico-cognitiva per compiti complessi o conversioni mondi in `docs/strategie/attive/`.
+- **Fase 1 (Piano Tecnico & Stop Obbligatorio)**:
+  - *Sotto-Fase 1A*: Stesura del Piano Tecnico in `docs/piani/attivi/` e Stop Obbligatorio.
+  - *Sotto-Fase 1B*: Modifiche a codice/configurazioni e test eseguiti solo dopo il via libera di Luca. Pre-Flight check di runtime e verifica backup mondo in `world_backup/`.
+- **Fase 2 (Deploy Proattivo, Telemetria & Test Manuale)**:
+  - Deploy automatico e avvio in modalità `nogui` con `avvia.bat` prima del collaudo.
+  - Collaudo manuale di Luca (con NVDA) e monitoraggio telemetrico (`logs/latest.log`) con registrazione automatica anomalie nel **Registro Revisioni Attivo** (`docs/report/REGISTRO_REVISIONI.md`).
+- **Fase PRAPI (Protocollo 5)**:
+  - Ciclo rapido in 4 passi (Rileva, Analizza, Risolvi, Collauda) sulle anomalie aperte nel Registro Revisioni.
+- **Fase 3 (Chiusura Tecnica, Doppia Barriera di Backup & Domanda Ponte)**:
+  - Consolidamento Git (Conventional Commits).
+  - Aggiornamento di `CHANGELOG.md` secondo SemVer AVF (`V.A.R[.M]`).
+  - Spostamento del piano completato in `docs/piani/completati/` e migrazione anomalie collaudate in `docs/report/ARCHIVIO_REVISIONI.md`.
+  - Aggiornamento del backup stabile di `world/` **esclusivamente POST-CONVALIDA positiva di Luca**.
+  - **Obbligo Tassativo di Domanda Ponte**:
     > *"Vuoi che avviamo ora la sessione formale di Auto-Apprendimento (Fase 4) per elaborare la bozza dettagliata delle regole e aggiornare le schede di conoscenza e governance?"*
-- **Fase 4: Auto-Apprendimento Continuo a Doppio Binario (Al via libera di Luca)**:
+- **Fase 4 (Auto-Apprendimento Continuo a Doppio Binario)**:
   - **Binario A (Locale / Progetto)**: Aggiornamento della cartella `knowledge/` del server (`08_registro_incidenti_e_troubleshooting.md`, matrici mod).
-  - **Binario B (Globale / Master Hub)**: Aggiornamento delle schede in `$env:OneDrive\progetti dei frati\antigravity master governance e jolly universali\knowledge_globale\`. Sincronizzazione a cascata dello Starter Kit ZIP al termine.
-  - Redazione dei paragrafi completi pronti per l'inserimento e richiesta di convalida finale prima di applicarli.
+  - **Binario B (Globale / Master Hub)**: Proposta di aggiornamento per il Master Hub universale in `astralis-framework`.
 
 ---
 
 ## 5. Sede Unica ed Esclusiva nel Repository Git
 
-Tutte le regole operative, le schede di conoscenza e i piani vivono unicamente all'interno del repository Git (`knowledge/`, `docs/`, `GEMINI.md`). È vietata la dispersione di copie locali o esterne non tracciate.
+Tutte le regole operative, le schede di conoscenza e i piani vivono unicamente all'interno del repository Git (`knowledge/`, `docs/`, `GEMINI.md`, `AGENTS.md`, `CHANGELOG.md`). È vietata la dispersione di copie locali o esterne non tracciate.
